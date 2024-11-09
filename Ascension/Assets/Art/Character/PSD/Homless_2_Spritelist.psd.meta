@@ -93,27 +93,1536 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rizzemoji_0
+      name: Homless_2_Spritelist_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 57
-        width: 400
-        height: 287
+        x: 49
+        y: 1154
+        width: 23
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa739594a33424a60800000000000000
-      internalID: 7656756234101012394
+      spriteID: c36e510c8fd164e9a914fa384b8e5ef8
+      internalID: -264509870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1154
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4d1478faa7a4bd3b7b5dccd9a2e5db
+      internalID: 612365278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1154
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af4d4bf89ac041a5a0e96f60be60771
+      internalID: -2147166999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1154
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1477426fbdb4f4dc788bad4666779299
+      internalID: -1302719453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1154
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76186e486bda7478d8370d7ad29057a5
+      internalID: -1662410375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1154
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e835072d1b0e24b8da7c5adc7ccddc22
+      internalID: -1457849159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1154
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f322dac00a6cf4719aaa1f368a601f76
+      internalID: 1695195886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1024
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43c4a355746c4dc8b4ae32af57f29c2
+      internalID: 292772507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1024
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9991f2b96954ec3877fd0e4bad501f
+      internalID: -529774240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1024
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e79836343654a7f8809375b71b412e
+      internalID: 1731012955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1024
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a7b68f3a69498c960b08edb7c047d
+      internalID: 1110431559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1024
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245c4e26667dc4fefa26064fbc964cdc
+      internalID: 539440652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1024
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a0262e369647ca88671d3374087db
+      internalID: 1734929782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1024
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68de207914ae4b018f06af86cd1da13
+      internalID: 881141862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1024
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c4f70c816c4c01be0be19c1081185
+      internalID: -57871608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 896
+        width: 18
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3356e05d2c48548f3b52217661cac9e6
+      internalID: 775995756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 896
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6835425cee36d4eaa9bfa81214a7787f
+      internalID: -1125903181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 896
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba2a46cceba54e3f91881a3ea790905
+      internalID: 1848434533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 896
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3443a73063f242b5a7bb43432b0edf8
+      internalID: -1177059552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 896
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be02c85ed8b424195b4670d9c1f567
+      internalID: -1076725315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 896
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b73403534aa4914a082ca24e915a8e
+      internalID: 164632512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 896
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c980e5b64f495ebc945b3777016c5
+      internalID: 1008853616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 896
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f51ea91df924d2b81ef03d3a142590
+      internalID: 939860055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 768
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d9aefad1dbb42a5b0a40433516f9ab
+      internalID: -1380249865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 768
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fec65127a5b4a7cbeaa9eab056acc1
+      internalID: -1535151981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 768
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787b86f4f2cd34f2c9ea5cab103e3192
+      internalID: 2004619289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 768
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643f76cb1dce247e2a535825ec396a9e
+      internalID: -1246670989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 768
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbd4fbd0e2a04cf4a8b695574b06eb4
+      internalID: 1324888543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 768
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeefbbccccd7c4036a813769f6fd43e8
+      internalID: 1490766923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 768
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690621cbdb8464339b862758e3349b67
+      internalID: 1390906584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 768
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe21db5a656e433793d20aa922f27a8
+      internalID: -449123161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 640
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272eb7731e1fb48a9a3a5c94527621c0
+      internalID: 306250859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 640
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7538930572e64f86b4dcd8d6e837c1c
+      internalID: 1780711554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 640
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2939801d2245242a6bf47d6de69bb403
+      internalID: 1163829480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 643
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910736d1a583e4b239cb871491026fe0
+      internalID: 1338691609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 640
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194aaaec8494940b69be42eb2b5d2ebf
+      internalID: 368793065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 640
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f44bb130d2d14f6faeadfb090655c0d
+      internalID: -995078960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 640
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a30c255481d145f78304d8ca6613bef
+      internalID: -705670475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 640
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc66b72765849fb82cd24864810b8d
+      internalID: -1361537215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 640
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41e621f7a27649d381df346857568da
+      internalID: -1600057374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 640
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273e949d403a2414fba2711f8dd65ea1
+      internalID: 1047880045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 640
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3541a949ec56244aab885db8e9e8012b
+      internalID: -1806803315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 640
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e395c64fdc3284c2b98d4183bc9710a6
+      internalID: -1883222609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 512
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf70a0e10919c4baaaf56f2f28ca6209
+      internalID: 479353548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 512
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a317b3de82049aa811cfb6247c1ad2
+      internalID: 842618149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 512
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8957887911d9e4236a40f17a2c90114b
+      internalID: 1633552725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 512
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e223ef39ac545d187337f0310973ce
+      internalID: 900856503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 512
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf0b388b882a4766aa56637d35f7057
+      internalID: -154735356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 512
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569e8fe2e7df346f79dcba3d0f9416a8
+      internalID: -603715452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 512
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246949ea61144427c9768b8cf3da03c9
+      internalID: 524447103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 512
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d496587af894cf4a3b13154226ebde
+      internalID: 1828937381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 512
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49f8189a1c8d47cb8e03098b7dfefca
+      internalID: -1968468905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 512
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055eda50fc5844721b8d46cf7c3df16b
+      internalID: -1603526851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 384
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558730e2a7064237861edb674b1049d
+      internalID: 1952275903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 384
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349725bad1aec40f68183b90b2e5b681
+      internalID: 695934607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 384
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b928d97ed526e48848d196dab247fc7c
+      internalID: 1539221293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 384
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c947f203f31496fa9574c1d7c43f3f
+      internalID: 977787673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 256
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47ed08843bfb4fb2aa8249603630784
+      internalID: 193348975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f20b916f016448da73d272fcd7c284
+      internalID: 567730092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 256
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a980a381be4a4e2fbdf073ec73e1c1c
+      internalID: 1292170515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 277
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a6a3f8d780244eda26ca921138e27b
+      internalID: -948886132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 256
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba283bf5623124234b5f91ca4ffb0ec0
+      internalID: 669152057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18b372ec46848b586d2a54426abf75
+      internalID: 509227431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 128
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6fe8c9d1e574224ba2589bc85d5fa0
+      internalID: 247807762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 128
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb94d44307f67403aa82ada06167205b
+      internalID: -1824886077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eb9a639a5a24b76b9606175e5e93d0
+      internalID: 274975529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585a41b3bdc484cf9a6e5ccff6710045
+      internalID: -935124272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5162a16c5d4225b6fbe7685fa6913
+      internalID: 2143608299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Homless_2_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a49edd88e7348bd9d096e28429916b
+      internalID: 942654948
       vertices: []
       indices: 
       edges: []
@@ -122,7 +1631,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9158544f1d7f14f5d964629da35bbb6a
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +1641,75 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rizzemoji_0: 7656756234101012394
+      Homless_2_Spritelist_0: -264509870
+      Homless_2_Spritelist_1: 612365278
+      Homless_2_Spritelist_10: 1110431559
+      Homless_2_Spritelist_11: 539440652
+      Homless_2_Spritelist_12: 1734929782
+      Homless_2_Spritelist_13: 881141862
+      Homless_2_Spritelist_14: -57871608
+      Homless_2_Spritelist_15: 775995756
+      Homless_2_Spritelist_16: -1125903181
+      Homless_2_Spritelist_17: 1848434533
+      Homless_2_Spritelist_18: -1177059552
+      Homless_2_Spritelist_19: -1076725315
+      Homless_2_Spritelist_2: -2147166999
+      Homless_2_Spritelist_20: 164632512
+      Homless_2_Spritelist_21: 1008853616
+      Homless_2_Spritelist_22: 939860055
+      Homless_2_Spritelist_23: -1380249865
+      Homless_2_Spritelist_24: -1535151981
+      Homless_2_Spritelist_25: 2004619289
+      Homless_2_Spritelist_26: -1246670989
+      Homless_2_Spritelist_27: 1324888543
+      Homless_2_Spritelist_28: 1490766923
+      Homless_2_Spritelist_29: 1390906584
+      Homless_2_Spritelist_3: -1302719453
+      Homless_2_Spritelist_30: -449123161
+      Homless_2_Spritelist_31: 306250859
+      Homless_2_Spritelist_32: 1780711554
+      Homless_2_Spritelist_33: 1163829480
+      Homless_2_Spritelist_34: 1338691609
+      Homless_2_Spritelist_35: 368793065
+      Homless_2_Spritelist_36: -995078960
+      Homless_2_Spritelist_37: -705670475
+      Homless_2_Spritelist_38: -1361537215
+      Homless_2_Spritelist_39: -1600057374
+      Homless_2_Spritelist_4: -1662410375
+      Homless_2_Spritelist_40: 1047880045
+      Homless_2_Spritelist_41: -1806803315
+      Homless_2_Spritelist_42: -1883222609
+      Homless_2_Spritelist_43: 479353548
+      Homless_2_Spritelist_44: 842618149
+      Homless_2_Spritelist_45: 1633552725
+      Homless_2_Spritelist_46: 900856503
+      Homless_2_Spritelist_47: -154735356
+      Homless_2_Spritelist_48: -603715452
+      Homless_2_Spritelist_49: 524447103
+      Homless_2_Spritelist_5: -1457849159
+      Homless_2_Spritelist_50: 1828937381
+      Homless_2_Spritelist_51: -1968468905
+      Homless_2_Spritelist_52: -1603526851
+      Homless_2_Spritelist_53: 1952275903
+      Homless_2_Spritelist_54: 695934607
+      Homless_2_Spritelist_55: 1539221293
+      Homless_2_Spritelist_56: 977787673
+      Homless_2_Spritelist_57: 193348975
+      Homless_2_Spritelist_58: 567730092
+      Homless_2_Spritelist_59: 1292170515
+      Homless_2_Spritelist_6: 1695195886
+      Homless_2_Spritelist_60: -948886132
+      Homless_2_Spritelist_61: 669152057
+      Homless_2_Spritelist_62: 509227431
+      Homless_2_Spritelist_63: 247807762
+      Homless_2_Spritelist_64: -1824886077
+      Homless_2_Spritelist_65: 274975529
+      Homless_2_Spritelist_66: -935124272
+      Homless_2_Spritelist_67: 2143608299
+      Homless_2_Spritelist_68: 942654948
+      Homless_2_Spritelist_7: 292772507
+      Homless_2_Spritelist_8: -529774240
+      Homless_2_Spritelist_9: 1731012955
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
