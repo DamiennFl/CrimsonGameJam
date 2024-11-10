@@ -13,13 +13,65 @@ public class PlayerController : MonoBehaviour
     public float WalkSpeed = 5f;
     public float JumpImpulse = 10f;
 
-    public bool IsMoving { get; private set; }
+    [SerializeField]
+    private bool _isMoving = false; // Keeping track if the player is moving or not.
+
+    [SerializeField]
+    private bool _isJumping = false; // Keeping track if the player is jumping or not.
+
+    public bool _isFacingRight = true;
+
+    Animator animator; // For animations and shit.
+
+    public bool IsMoving
+    {
+        get
+        {
+            return _isMoving;
+        }
+        set
+        {
+            _isMoving = value;
+            animator.SetBool("isMoving", value);
+        }
+    }
+
+    public bool IsJumping
+    {
+        get
+        {
+            return _isJumping;
+        }
+        set
+        {
+            _isJumping = value;
+            animator.SetBool("isJumping", value);
+        }
+
+
+    }
+
+    public bool IsFacingRight
+    {
+        get { return _isFacingRight; }
+        private set
+        {
+            if (_isFacingRight != value)
+            {
+                // Flip the local scale
+                transform.localScale *= new Vector2(-1, 1);
+            }
+            _isFacingRight = value;
+
+        }
+    }
 
     // Initialize components and set up starting velocity
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         touchingDirections = GetComponent<TouchingDirections>();
+        animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -47,6 +99,22 @@ public class PlayerController : MonoBehaviour
         // Update moveInput based on context
         moveInput = context.ReadValue<Vector2>();
         IsMoving = moveInput != Vector2.zero;
+        SetFacingDirection(moveInput);
+    }
+
+
+    private void SetFacingDirection(Vector2 moveInput)
+    {
+        if (moveInput.x > 0 && !IsFacingRight)
+        {
+            // face the right
+            IsFacingRight = true;
+        }
+        else if (moveInput.x < 0 && IsFacingRight)
+        {
+            // face the left
+            IsFacingRight = false;
+        }
     }
 
     /// <summary>
@@ -63,11 +131,18 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Jump action detected and player is grounded");
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpImpulse); // Apply jump velocity
+            IsJumping = true;
         }
         else if (!touchingDirections.IsGrounded)
         {
             Debug.Log("Cannot jump - Player is not grounded");
+            IsJumping = false;
         }
+        else if (!context.performed)
+        {
+            IsJumping = false;
+        }
+
     }
 
     // FixedUpdate is called at a fixed time interval
