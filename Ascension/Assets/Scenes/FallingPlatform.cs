@@ -3,33 +3,36 @@ using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour
 {
-    public static FallingPlatform Instance = null;
-    [SerializeField]
-    GameObject platformPrefab;
+    Rigidbody2D rb2d;
+    Vector2 defaultPos;
 
-    void Awake()
-    {
-        if(Instance == null)
-        {
-            Instance = this;
-        }
-        else if(Instance != this)
-        {
-            Destroy(gameObject);
-        }
-    }
+    [SerializeField] float fallDelay, respawnTime;
+
     void Start()
     {
-        Instantiate(platformPrefab,new Vector2 (-3.5f,-2.5f),platformPrefab.transform.rotation);
-        Instantiate(platformPrefab, new Vector2(0f, -2.5f), platformPrefab.transform.rotation);
-        Instantiate(platformPrefab, new Vector2(3.5f, -2.5f), platformPrefab.transform.rotation);
-
+        defaultPos = transform.position;
+        rb2d = GetComponent<Rigidbody2D>();
     }
 
-    IEnumerator SpawnPlatform(Vector2 spawnPosition)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        yield return new WaitForSeconds(2f);
-        Instantiate(platformPrefab,spawnPosition,platformPrefab.transform.rotation);
+        if (other.gameObject.tag == "Player")
+        {
+            StartCoroutine("PlatformDrop");
+        }
     }
 
+    IEnumerator PlatformDrop()
+    {
+        yield return new WaitForSeconds(fallDelay);
+        rb2d.bodyType = RigidbodyType2D.Dynamic;
+        yield return new WaitForSeconds(respawnTime);
+        Reset();
+    }
+
+    private void Reset()
+    {
+        rb2d.bodyType = RigidbodyType2D.Static;
+        transform.position = defaultPos;
+    }
 }
