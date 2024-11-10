@@ -75,6 +75,11 @@ public class PlayerController : MonoBehaviour
     {
         // Apply horizontal movement based on moveInput.x and current y velocity
         rb.linearVelocity = new Vector2(moveInput.x * WalkSpeed, rb.linearVelocity.y);
+
+        if (!touchingDirections.IsGrounded && moveInput.x != 0 && Mathf.Abs(rb.linearVelocity.y) < 0.1f)
+        {
+            rb.AddForce(Vector2.down * 0.5f, ForceMode2D.Impulse);
+        }
     }
 
     // Optional debugging for grounded status

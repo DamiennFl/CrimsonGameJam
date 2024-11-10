@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WalkSpeed: 5
+  JumpImpulse: 10
 --- !u!114 &7445762854990558565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +263,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f4b2a91ee7f14f8996463da4a2defb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  groundDistance: 0.05
 --- !u!70 &7513780988757932741
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -272,7 +288,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 93cbd8c0074ac48908b8910914643064, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
