@@ -13,7 +13,11 @@ GameObject:
   - component: {fileID: 7310486666023683027}
   - component: {fileID: 6473165489942658773}
   - component: {fileID: 7445762854990558565}
+<<<<<<< Updated upstream
   - component: {fileID: 4910869947090688532}
+=======
+  - component: {fileID: 5330488614214748758}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -249,7 +253,11 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!95 &4910869947090688532
+=======
+--- !u!95 &5330488614214748758
+>>>>>>> Stashed changes
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -259,7 +267,11 @@ Animator:
   m_GameObject: {fileID: 2081125417178611867}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
+<<<<<<< Updated upstream
   m_Controller: {fileID: 9100000, guid: 9333a87866ff9a4458f50ce0954770a7, type: 2}
+=======
+  m_Controller: {fileID: 9100000, guid: 86a105bc763e63d428d3f0d8617b3220, type: 2}
+>>>>>>> Stashed changes
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
