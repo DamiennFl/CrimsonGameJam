@@ -6,7 +6,7 @@ public class MovingPlatform : MonoBehaviour
     public Transform startPoint;
     public Transform endPoint;
     public float speed = 10f;
-    int direction = 1;
+    private int direction = 1;
 
     void Update()
     {
@@ -31,6 +31,24 @@ public class MovingPlatform : MonoBehaviour
         {
             Gizmos.color = Color.green;
             Gizmos.DrawLine(startPoint.position, endPoint.position);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Check if the player is stepping onto the platform
+        if (other.CompareTag("Player"))
+        {
+            other.transform.SetParent(platform); // Make the player a child of the platform
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        // Check if the player is leaving the platform
+        if (other.CompareTag("Player"))
+        {
+            other.transform.SetParent(null); // Remove the parent relationship
         }
     }
 }
