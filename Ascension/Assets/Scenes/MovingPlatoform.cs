@@ -39,7 +39,7 @@ public class MovingPlatform : MonoBehaviour
         // Check if the player is stepping onto the platform
         if (other.CompareTag("Player"))
         {
-            other.transform.SetParent(platform); // Make the player a child of the platform
+            other.transform.SetParent(this.transform); // Make the player a child of the platform
         }
     }
 
