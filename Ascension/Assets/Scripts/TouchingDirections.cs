@@ -4,13 +4,27 @@ public class TouchingDirections : MonoBehaviour
 {
     public ContactFilter2D castFilter;
     public float groundDistance = 0.05f;
-    public bool IsGrounded { get; private set; }
+    //public bool IsGrounded { get; private set; }
 
     CapsuleCollider2D touchingCol;
 
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
 
     private bool _isGrounded;
+
+    public bool IsGrounded
+    {
+        get { return _isGrounded; }
+        set
+        {
+            if (_isGrounded != value)
+            {
+                _isGrounded = value;
+                // You can trigger an event here if needed
+            }
+        }
+    }
+
 
     private void Awake()
     {
