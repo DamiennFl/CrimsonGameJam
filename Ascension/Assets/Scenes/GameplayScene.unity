@@ -43473,8 +43473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 693, y: -16}
-  m_SizeDelta: {x: 562.9142, y: 46.3723}
+  m_AnchoredPosition: {x: 729, y: 13}
+  m_SizeDelta: {x: 256.2559, y: 31.0878}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651957154
 MonoBehaviour:
@@ -43489,8 +43489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 626590100}
-  levelBottomY: 10
-  levelTopY: 150
+  levelBottomY: -0.5
+  levelTopY: 153.3
 --- !u!114 &1651957155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51623,3 +51623,4 @@ SceneRoots:
   - {fileID: 1488125752}
   - {fileID: 628706270}
   - {fileID: 2102690589}
+  - {fileID: 863939441}
