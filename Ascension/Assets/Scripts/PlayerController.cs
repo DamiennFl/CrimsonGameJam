@@ -14,14 +14,18 @@ public class PlayerController : MonoBehaviour
     public float JumpImpulse = 10f;
 
     [SerializeField]
-    private bool _isMoving = false; // Keeping track if the player is moving or not.
+    private bool _isMoving = false;
 
     [SerializeField]
-    private bool _isJumping = false; // Keeping track if the player is jumping or not.
+    private bool _isJumping = false;
 
     public bool _isFacingRight = true;
 
-    Animator animator; // For animations.
+    Animator animator;
+
+    // Reset settings
+    public float fallThresholdY = -0.7f; // Y-coordinate threshold
+    public Vector3 respawnPosition;     // Position to reset the player to
 
     public bool IsMoving
     {
@@ -51,7 +55,7 @@ public class PlayerController : MonoBehaviour
             if (_isFacingRight != value)
             {
                 // Flip the local scale
-                transform.localScale *= new Vector2(-1, 1);
+                transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             }
             _isFacingRight = value;
         }
@@ -68,6 +72,9 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+
+        // Set the respawn position to the player's starting position
+        respawnPosition = transform.position;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -93,7 +100,6 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started && touchingDirections.IsGrounded)
         {
-            Debug.Log("Jump action detected and player is grounded");
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpImpulse);
             IsJumping = true;
         }
@@ -114,29 +120,34 @@ public class PlayerController : MonoBehaviour
     {
         HandleLanding();
 
-        // Testing jump via space key
-        if (Input.GetKeyDown(KeyCode.Space))
+        // Check if the player's Y-coordinate is below the threshold
+        if (transform.position.y < fallThresholdY)
         {
-            Debug.Log("Jump triggered via KeyCode");
-            if (touchingDirections.IsGrounded)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, JumpImpulse);
-                IsJumping = true;
-            }
-            else
-            {
-                Debug.Log("Cannot jump - Player is not grounded");
-            }
+            RespawnPlayer();
         }
+
+        // Existing testing code for jumping via space key...
     }
 
     private void HandleLanding()
     {
-        // Only reset IsJumping when the player is grounded and falling or has landed
         if (IsJumping && touchingDirections.IsGrounded && rb.linearVelocity.y <= 0)
         {
             IsJumping = false;
         }
+    }
+
+    private void RespawnPlayer()
+    {
+        // Reset player's position to the respawn position
+        transform.position = respawnPosition;
+
+        // Reset player's velocity
+        rb.linearVelocity = Vector2.zero;
+
+        // Reset any other necessary states
+        IsJumping = false;
+        IsMoving = false;
     }
 
     private void OnEnable()
