@@ -9,6 +9,19 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private TouchingDirections touchingDirections;
 
+    private float timer = 0f;
+    private bool isTimerRunning = true;
+
+    private bool canUpdate = true;
+
+    // Coordinates to stop the timer
+    public Vector2 stopCoordinates = new Vector2(13.81765f, 153.2925f);
+
+    public TMPro.TextMeshProUGUI timerText;
+
+    
+
+
     // Movement and jump settings
     public float WalkSpeed = 5f;
     public float JumpImpulse = 10f;
@@ -24,7 +37,7 @@ public class PlayerController : MonoBehaviour
     Animator animator;
 
     // Reset settings
-    public float fallThresholdY = -0.7f; // Y-coordinate threshold
+    public float fallThresholdY = -0.9f; // Y-coordinate threshold
     public Vector3 respawnPosition;     // Position to reset the player to
 
     public bool IsMoving
@@ -75,6 +88,7 @@ public class PlayerController : MonoBehaviour
 
         // Set the respawn position to the player's starting position
         respawnPosition = transform.position;
+
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -82,6 +96,29 @@ public class PlayerController : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
         IsMoving = moveInput != Vector2.zero;
         SetFacingDirection(moveInput);
+    }
+
+    public void ResetCharacter(InputAction.CallbackContext context)
+    {
+        //// Reset player's position to the respawn position
+        //transform.position = respawnPosition;
+
+        //// Reset player's velocity
+        //rb.linearVelocity = Vector2.zero;
+
+        //// Reset any other necessary states
+        //IsJumping = false;
+        //IsMoving = false;
+
+        RespawnPlayer();
+
+        // Reset the timer
+        timer = 0f;
+        isTimerRunning = true;
+        canUpdate = true;
+
+        // Reset timer UI
+        timerText.text = "Time: 0.00";
     }
 
     private void SetFacingDirection(Vector2 moveInput)
@@ -121,13 +158,37 @@ public class PlayerController : MonoBehaviour
         HandleLanding();
 
         // Check if the player's Y-coordinate is below the threshold
-        if (transform.position.y < fallThresholdY)
+        //if (transform.position.y < fallThresholdY)
+        //{
+        //    RespawnPlayer();
+        //}
+
+
+        // Increment the timer if it is running
+        if (isTimerRunning && canUpdate)
         {
-            RespawnPlayer();
+            timer += Time.deltaTime;
+
+            // Update the timer display
+            timerText.text = $"Time: {timer:F2}";
+
+            // Stop the timer if the player's position meets or exceeds the stop coordinates
+            if (transform.position.x >= stopCoordinates.x && transform.position.y >= stopCoordinates.y)
+            {
+                StopTimer();
+            }
         }
 
         // Existing testing code for jumping via space key...
     }
+
+    private void StopTimer()
+    {
+        isTimerRunning = false;
+        canUpdate = false;      // Prevent further updates
+        Debug.Log($"Timer stopped at: {timer} seconds");
+    }
+
 
     private void HandleLanding()
     {
